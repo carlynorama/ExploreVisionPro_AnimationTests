@@ -1,4 +1,0 @@
-module RealityKitContent {
-    header "/Users/carlynorama/Developer/GitHub/ExploreVisionPro_AnimationTests/Packages/RealityKitContent/.build/arm64-apple-macosx/debug/RealityKitContent.build/RealityKitContent-Swift.h"
-    requires objc
-}

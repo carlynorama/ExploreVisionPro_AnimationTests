@@ -68,6 +68,7 @@ def Xform "Root"
 
     def "cube_purple_autoplay" (
         active = true
+        autoPlay = true
         prepend references = @cube_purple_autoplay.usd@
     )
     {

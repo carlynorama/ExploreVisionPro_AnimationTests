@@ -18,4 +18,18 @@ def Scope "_materials"
             token outputs:surface
         }
     }
+
+        def Material "green"
+    {
+        token outputs:surface.connect = </_materials/green/previewShader.outputs:surface>
+
+        def Shader "previewShader"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.1000001, 0.9429553, 0.32986294)
+            float inputs:metallic = 0.1
+            float inputs:roughness = 0.9
+            token outputs:surface
+        }
+    }
 }

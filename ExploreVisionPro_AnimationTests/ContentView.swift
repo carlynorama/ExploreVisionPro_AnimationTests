@@ -24,6 +24,12 @@ struct ContentView: View {
                     content.add(cube)
                 }
             }
+//            RealityView { content in
+//                if let cube = try? await Entity(named: "Scene_3", in: realityKitContentBundle) {
+//                    print(cube.components)
+//                    content.add(cube)
+//                }
+//            }
             //Scene has one cube that should auto play, one that should not.
             //Neither do, but both will start (as expected) with click.
             RealityView { content in

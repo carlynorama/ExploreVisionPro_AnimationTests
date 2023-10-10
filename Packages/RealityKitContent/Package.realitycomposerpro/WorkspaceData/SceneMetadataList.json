@@ -3,7 +3,8 @@
     "objectMetadataList" : [
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root"
+        "Root",
+        "Sphere"
       ],
       {
         "isExpanded" : true,
@@ -11,8 +12,19 @@
       },
       [
         "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
-        "Root",
-        "Sphere"
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "31CD23A5-9568-4A13-8DA3-F9EA6F605F5A" : {
+    "objectMetadataList" : [
+      [
+        "31CD23A5-9568-4A13-8DA3-F9EA6F605F5A",
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -65,6 +77,39 @@
       }
     ]
   },
+  "31186824-5B8D-497F-A9BC-190C4025BC9A" : {
+    "objectMetadataList" : [
+      [
+        "31186824-5B8D-497F-A9BC-190C4025BC9A",
+        "_materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B0E3EDF3-0B46-425A-B68A-2271375C2CB9" : {
+    "objectMetadataList" : [
+      [
+        "B0E3EDF3-0B46-425A-B68A-2271375C2CB9",
+        "AnimatedCube",
+        "Geom"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B0E3EDF3-0B46-425A-B68A-2271375C2CB9",
+        "AnimatedCube"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "B5D4410A-0237-47C8-9198-205C6F4414AA" : {
     "objectMetadataList" : [
       [
@@ -78,7 +123,9 @@
       },
       [
         "B5D4410A-0237-47C8-9198-205C6F4414AA",
-        "transformAnimation"
+        "transformAnimation",
+        "Geom",
+        "xform1"
       ],
       {
         "isExpanded" : true,
@@ -86,9 +133,19 @@
       },
       [
         "B5D4410A-0237-47C8-9198-205C6F4414AA",
-        "transformAnimation",
-        "Geom",
-        "xform1"
+        "transformAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F9DDA727-90B0-467A-8845-4513A411583B" : {
+    "objectMetadataList" : [
+      [
+        "F9DDA727-90B0-467A-8845-4513A411583B",
+        "Root"
       ],
       {
         "isExpanded" : true,

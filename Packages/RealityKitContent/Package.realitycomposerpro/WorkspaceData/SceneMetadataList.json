@@ -70,16 +70,6 @@
       [
         "B5D4410A-0237-47C8-9198-205C6F4414AA",
         "transformAnimation",
-        "Geom",
-        "xform1"
-      ],
-      {
-        "isExpanded" : true,
-        "isLocked" : false
-      },
-      [
-        "B5D4410A-0237-47C8-9198-205C6F4414AA",
-        "transformAnimation",
         "Geom"
       ],
       {
@@ -89,6 +79,16 @@
       [
         "B5D4410A-0237-47C8-9198-205C6F4414AA",
         "transformAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B5D4410A-0237-47C8-9198-205C6F4414AA",
+        "transformAnimation",
+        "Geom",
+        "xform1"
       ],
       {
         "isExpanded" : true,

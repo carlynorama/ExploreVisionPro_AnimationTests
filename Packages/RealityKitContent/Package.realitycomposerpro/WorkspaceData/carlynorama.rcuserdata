@@ -1,8 +1,7 @@
 {
   "advancedEditorSelectedIdentifier" : "ProjectBrowser",
   "openSceneRelativePaths" : [
-    "Scene.usda",
-    "cube_purple_animated.usd"
+
   ],
   "recentIdentifiers" : {
 
@@ -122,6 +121,5 @@
         ]
       }
     ]
-  },
-  "selectedSceneRelativePath" : "Scene.usda"
+  }
 }

@@ -15,13 +15,17 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
+            //A ModelEntity, not expected to autoplay
             Model3D(named: "cube_purple_autoplay", bundle: realityKitContentBundle)
+            //An Entity, not expected to autoplay
             RealityView { content in
                 if let cube = try? await Entity(named: "cube_purple_autoplay", in: realityKitContentBundle) {
                     print(cube.components)
                     content.add(cube)
                 }
             }
+            //Scene has one cube that should auto play, one that should not.
+            //Neither do, but both will start (as expected) with click. 
             RealityView { content in
                 // Add the initial RealityKit content
                 if let scene = try? await Entity(named: "Scene", in: realityKitContentBundle) {
